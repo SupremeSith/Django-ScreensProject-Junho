@@ -1,0 +1,63 @@
+{% extends "index.html" %}
+{% load static %}
+
+{% block body %}
+
+<div class="container">
+    <div class="sidebar">
+
+        <!-- foto do usuario -->
+        <img src="https://i.pinimg.com/564x/c4/34/d8/c434d8c366517ca20425bdc9ad8a32de.jpg" alt="ft de perfil">
+
+        <!-- nome e email dele -->
+        <h2>{{Nome}}</h2>
+        <p>{{email}}</p>
+    </div>
+    <div class="main-content">
+        <h1>Agendamentos</h1>
+        <p>Todas as Salas Agendadas de Usuario Null</p>
+
+        <!-- salas do usuario -->
+        <button class="schedule-btn">agendar</button>
+        <div class="cards-container">
+            <div class="card">
+
+
+                <!-- nome da sala -->
+                <h3>C13</h3>
+
+
+                <!-- horaio agendado -->
+                <p>05/10 as 11/09</p>
+                <button>detalhes</button>
+            </div>
+            <div class="card">
+                <h3>C13</h3>
+                <p>05/10 as 11/09</p>
+                <button>detalhes</button>
+            </div>
+            <div class="card">
+                <h3>C13</h3>
+                <p>05/10 as 11/09</p>
+                <button>detalhes</button>
+            </div>
+            <div class="card">
+                <h3>C13</h3>
+                <p>05/10 as 11/09</p>
+                <button>detalhes</button>
+            </div>
+            <div class="card">
+                <h3>C13</h3>
+                <p>05/10 as 11/09</p>
+                <button>detalhes</button>
+            </div>
+            <div class="card">
+                <h3>C13</h3>
+                <p>05/10 as 11/09</p>
+                <button>detalhes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
